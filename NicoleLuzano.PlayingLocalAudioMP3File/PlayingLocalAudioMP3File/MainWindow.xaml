@@ -1,12 +1,8 @@
 ﻿<Window x:Class="PlayingLocalAudioMP3File.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:PlayingLocalAudioMP3File"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MediaPlayerAudioSample" Height="100" Width="200">
+    <Grid VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Button Name="btnOpenAudioFile" Click="btnOpenAudioFile_Click">Open Audio file</Button>
     </Grid>
 </Window>
