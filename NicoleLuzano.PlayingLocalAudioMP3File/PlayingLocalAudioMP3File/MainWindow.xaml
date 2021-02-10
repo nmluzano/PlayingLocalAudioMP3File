@@ -8,6 +8,7 @@
             <Button Name="btnPlay" Click="btnPlay_Click">Play</Button>
             <Button Name="btnPause" Margin="5,0" Click="btnPause_Click">Pause</Button>
             <Button Name="btnStop" Click="btnStop_Click">Stop</Button>
+            <Button x:Name="btnOpenAudioFile" Margin="5,0" Click="btnOpenAudioFile_Click" Content="Open"/>
         </WrapPanel>
     </StackPanel>
 </Window>
